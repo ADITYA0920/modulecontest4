@@ -117,14 +117,24 @@ code {
   margin: 5px auto;
   
 }
-.selected-post img{
-  /* width: 400px;
-  height: 300px; */
+
+selected-post .left{
   flex-basis: 30%;
+}
+.selected-post img{
+  width: 400px;
+  height: 300px;
   border-radius: 15px;
   margin-top: 10px;
   box-shadow: 10px 10px 20px rgb(119, 115, 115);
   align-items: center;
+}
+#ttl{
+  position: absolute;
+  color: white;
+  font-weight: 900;
+  top: 63%;
+  margin-left: 15px;
 }
 .selected-post .sub-part{
   display: flex;
@@ -146,6 +156,7 @@ code {
   padding: 5px 10px;
   border-radius: 9px;
   cursor: pointer;
+  flex-wrap: nowrap;
   box-shadow: 5px 5px 10px rgb(174, 173, 173);
 }
 #img-info{

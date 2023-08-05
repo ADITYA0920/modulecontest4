@@ -7,15 +7,14 @@ import { useNavigate } from 'react-router';
 const Body = () => {
     const[info,setInfo] = useState() ; 
     let data = useSelector(state=>state.reducer) ;
-    
     let navigate = useNavigate() ;
 
     let dispatch = useDispatch() ;
     // console.log(data) ;
     let post = data.posts ;
   
-    console.log(post) ;
-    console.log('working');
+    // console.log(post) ;
+    // console.log('working');
 
     useEffect(()=>{
          dispatch(fetchdata());
